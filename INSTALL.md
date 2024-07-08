@@ -270,7 +270,7 @@ If you are using **MacOS**, Paul Ray has been running PRESTO a lot and knows sev
 
 Alessandro Ridolfi wrote recipes to create Docker images which you can use and modify in the `examplescripts` directory.
 
-He made two versions: one without PNG image support (i.e. providing `pstoimg` via the latex2html package, which is quite large. `pstoimg` is used by `prepfold` to make the nice .png versions of the .pfd.ps files) and the other one without the PNG support. The files are:
+He made two versions: one with PNG image support (i.e. providing `pstoimg` via the latex2html package, which is quite large. `pstoimg` is used by `prepfold` to make the nice .png versions of the .pfd.ps files) and the other one without the PNG support. The files are:
 - examplescripts/Dockerfile_presto5_png_ubuntu24.04.txt
 - examplescripts/Dockerfile_presto5_ubuntu24.04.txt
 
